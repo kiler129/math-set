@@ -1,0 +1,44 @@
+################ ENVIRONMENT ################
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+._*
+.AppleDB
+.AppleDesktop
+
+### PHP-related files ###
+/app/bootstrap.php.cache
+/var/bootstrap.php.cache
+/phpunit.xml
+/build/
+/composer.phar
+**/Entity/*~
+
+
+### InteliJ ###
+.idea/
+
+
+################ APPLICATION ################
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+config/app.yaml
+!var/cache/.gitkeep
+!var/log/.gitkeep
+
+
+###> squizlabs/php_codesniffer ###
+/.phpcs-cache
+/phpcs.xml
+###< squizlabs/php_codesniffer ###
