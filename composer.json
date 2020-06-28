@@ -1,0 +1,28 @@
+{
+    "name": "noflash/math-set",
+    "description": "A simple DTO providing math set functionality",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.4.0"
+    },
+    "require-dev": {
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "NoFlash\\MathSet\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NoFlash\\MathTest\\Tests\\": "tests/"
+        }
+    }
+}
