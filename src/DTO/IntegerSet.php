@@ -48,7 +48,7 @@ class IntegerSet
 
     public function isFinite(): bool
     {
-        return $this->left !== null && $this->rightClosed !== null;
+        return $this->left !== null && $this->right !== null;
     }
 
     public function asString(): string
